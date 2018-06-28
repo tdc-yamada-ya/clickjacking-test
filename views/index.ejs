@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Content</title>
+<style>
+  html, body {
+  	height: 100%;
+  }
+
+  body {
+    background: #333;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  button {
+    display: block;
+    height: 200px;
+    margin: -100px auto auto;
+    position: relative;
+    top: 50%;
+    width: 200px;
+  }
+</style>
+</head>
+<body>
+  <button>Button</button>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script>
+    (function() {
+      $('button').on('click', function() {
+        alert('Button clicked!!')
+      })
+    })();
+  </script>
+</body>
+</html>
