@@ -1,6 +1,8 @@
 # クリックジャッキングテスト
 
-[クリックジャッキングのテスト用ページ](https://tdc-yamada-ya.github.io/clickjacking-test/)
+クリックジャッキングの挙動をテストするために、インラインフレームに任意のWebサイトを表示するテストページと、X-Frame-Optionsの動作を検証するための Node.js Webアプリを作成しました。
+
+[クリックジャッキングのテスト用ページを開く](https://tdc-yamada-ya.github.io/clickjacking-test/)
 
 * [Target URL] の入力欄にクリックジャッキング脆弱性の有無を確かめたいWebサイトのURL (https:// のみ) を入力して Enter を押してください
     * このリポジトリをクローンして docs/index.html を開くことで http:// のURLも確認することができます
