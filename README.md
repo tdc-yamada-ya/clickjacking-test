@@ -26,7 +26,7 @@ top-level browsing context は「最も外側のページ」という意味で [
 
 `X-Frame-Options: ALLOW-FROM http://example.com` を指定することで特定のドメインに対してフレーム埋め込みを許可することができます。
 しかしながら Mozilla Developer Netowork によると ALLOW-FROM は Google Chrome で非対応であり、
-実際に Google Chrome (Mac) にてテストしたところ解釈できないヘッダとして無視されました。
+実際に Google Chrome (Mac) にてテストしたところ解釈できないヘッダとして無視されました。(2018年6月)
 
 X-Frame-Optionsは古いブラウザで未サポートであったり、細かい部分でブラウザ間の実装の違いがあるため、
 実際に導入する際は開発中のWebサイトがサポートを予定しているWebブラウザを使用した動作検証が必要です。
