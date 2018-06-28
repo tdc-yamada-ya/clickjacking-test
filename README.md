@@ -22,5 +22,4 @@ X-Frame-Optionsを設定する方法は以下のURLに記載されています�
 実際に Google Chrome (Mac) にてテストしたところ解釈できないヘッダとして無視されました。
 
 これら以外の対策手法についてはOWASPのクリックジャッキングチートシートに記載されています。
-
 [https://jpcertcc.github.io/OWASPdocuments/CheatSheets/ClickjackingDefense.html](https://jpcertcc.github.io/OWASPdocuments/CheatSheets/ClickjackingDefense.html)
