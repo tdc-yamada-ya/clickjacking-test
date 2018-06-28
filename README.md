@@ -13,9 +13,11 @@
 # クリックジャッキングの対策
 
 ほとんどのサイトにおいて `X-Frame-Options: SAMEORIGIN` を設定することで解決できます。
-これは iframe を埋め込むという要件の多くの場合が同一ドメイン内に閉じているためです。
+これは iframe を埋め込むという要件の多くの場合が同一オリジン内で完結するためです。
 X-Frame-Optionsを設定する方法は以下のURLに記載されています。
 
 [https://developer.mozilla.org/ja/docs/Web/HTTP/X-Frame-Options](https://developer.mozilla.org/ja/docs/Web/HTTP/X-Frame-Options)
+
+
 
 [https://jpcertcc.github.io/OWASPdocuments/CheatSheets/ClickjackingDefense.html](https://jpcertcc.github.io/OWASPdocuments/CheatSheets/ClickjackingDefense.html)
