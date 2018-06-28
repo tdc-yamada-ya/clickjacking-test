@@ -32,6 +32,6 @@ X-Frame-Optionsを設定する方法は以下のURLに記載されています�
 X-Frame-Optionsは古いブラウザで未サポートであったり、細かい部分でブラウザ間の実装の違いがあるため、
 実際に導入する際は開発中のWebサイトがサポートを予定しているWebブラウザを使用した動作検証が必要です。
 
-これら以外の対策手法についてはOWASPのクリックジャッキングチートシートに記載されています。
+X-Frame-Options以外のの対策手法についてはOWASPのクリックジャッキングチートシート（下記URLは日本語訳）に記載されています。
 
 [https://jpcertcc.github.io/OWASPdocuments/CheatSheets/ClickjackingDefense.html](https://jpcertcc.github.io/OWASPdocuments/CheatSheets/ClickjackingDefense.html)
