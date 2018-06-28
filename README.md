@@ -15,9 +15,12 @@
 ほとんどのサイトにおいて `X-Frame-Options: SAMEORIGIN` を設定することで解決できます。
 これは iframe を埋め込むという要件の多くの場合が同一オリジン内で完結するためです。
 X-Frame-Optionsを設定する方法は以下のURLに記載されています。
-
 [https://developer.mozilla.org/ja/docs/Web/HTTP/X-Frame-Options](https://developer.mozilla.org/ja/docs/Web/HTTP/X-Frame-Options)
 
+`X-Frame-Options: ALLOW-FROM http://example.com` を指定することで特定のドメインに対してフレーム埋め込みを許可することができます。
+しかしながら Mozilla Developer Netowork によると ALLOW-FROM は Google Chrome で非対応であり、
+実際に Google Chrome (Mac) にてテストしたところ解釈できないヘッダとして無視されました。
 
+これら以外の対策手法についてはOWASPのクリックジャッキングチートシートに記載されています。
 
 [https://jpcertcc.github.io/OWASPdocuments/CheatSheets/ClickjackingDefense.html](https://jpcertcc.github.io/OWASPdocuments/CheatSheets/ClickjackingDefense.html)
