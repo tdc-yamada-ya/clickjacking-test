@@ -19,7 +19,6 @@
 `X-Frame-Options: SAMEORIGIN` を設定するとオリジン（スキーム、ドメイン、ポート番号）が完全一致する場合に限り、フレーム内へのドキュメントの表示を許可します。
 なおオリジンの比較は top-level browsing context に対して行われます。
 top-level browsing context は「最も外側のページ」という意味で [RFC7034](https://tools.ietf.org/html/rfc7034) に記載されています。
-これはフレームを入れ子にした場合を考慮しています。
 
 X-Frame-Optionsを設定する方法は以下のURLに記載されています。
 
