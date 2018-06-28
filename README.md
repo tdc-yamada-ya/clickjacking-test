@@ -20,7 +20,7 @@
 なおオリジンの比較は top-level browsing context に対して行われます。
 top-level browsing context は「最も外側のページ」という意味で [RFC7034](https://tools.ietf.org/html/rfc7034) に記載されています。
 
-X-Frame-Optionsを設定する方法は以下のURLに記載されています。
+代表的なWebサーバでX-Frame-Optionsを設定する方法は以下のURLに記載されています。
 
 [https://developer.mozilla.org/ja/docs/Web/HTTP/X-Frame-Options](https://developer.mozilla.org/ja/docs/Web/HTTP/X-Frame-Options)
 
